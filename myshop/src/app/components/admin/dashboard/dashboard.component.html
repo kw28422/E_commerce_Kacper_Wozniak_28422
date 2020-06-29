@@ -1,5 +1,5 @@
+<app-menu></app-menu>
 <div style="display: flex;flex-direction: row;">
-  <app-menu></app-menu>
   <div class="content" style="width: 100%;">
     <div class="content-header">
       <h2>DASHBOARD</h2>
@@ -15,8 +15,9 @@
         [chartType]="barChartType">
         </canvas>
       </div>
+      <br><br>
       <button mat-button mat-raised-button color="primary"
-      (click)="randomize()">Update</button>
+      (click)="randomize()">Aktualizuj dane</button>
      </div>
     <div class="content-container">
       <h2>Zamówienia</h2>
@@ -42,6 +43,7 @@
           </tr>
         </tbody>
       </table>
+      <br><br>
     </div>
   </div>
 </div>

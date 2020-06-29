@@ -1,10 +1,12 @@
+<app-menu></app-menu>
 <div style="display: flex;flex-direction: row;">
-  <app-menu></app-menu>
   <div class="content" style="width: 100%;">
     <div class="content-header">
-      <h2>PRODUCTS</h2>
+      <h2>PRODUKTY DOSTĘPNE W NASZEJ BAZIE</h2>
     </div>
-    <button (click)="getProducts()">Odśwież</button>
+      <div id="btn">
+        <button (click)="getProducts()">Odśwież</button>
+      </div>
     <div class="content-container">
       <table style="margin: 0 auto;">
         <thead>

@@ -5,11 +5,11 @@ import * as pluginDataLabels from 'chartjs-plugin-datalabels';
 import { Label } from 'ng2-charts';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-orders',
+  templateUrl: './orders.component.html',
+  styleUrls: ['./orders.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class OrdersComponent implements OnInit {
 
   constructor(public mainService: MainService) { }
   // tslint:disable-next-line: member-ordering
